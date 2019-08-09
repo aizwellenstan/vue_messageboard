@@ -3,7 +3,7 @@
     <button
       @click="showMessageForm = !showMessageForm"
       type="button"
-      class="btn btn-info mt-3 mb-3">Toggle Message Form</button>
+      class="btn btn-info mt-3 mb-3">メッセージをおくる</button>
     <form v-if="showMessageForm" @submit.prevent="addMessage" class="mb-3">
       <div v-if="error" class="alert alert-dismissible alert-warning">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
